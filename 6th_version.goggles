@@ -1,0 +1,10 @@
+! name: Moscow leisure search
+! description: Rerank results to boost content on leisure in Moscow. List of leisure activities drawn from yandex.ru/maps, and not vetted or endorsed by Brave.
+! public: false
+! author: jar
+
+$discard,site=yandex.ru
+$boost=4,site=restoclub.ru
+$boost=4,site=zoon.ru
+$boost=4,site=afisha.ru
+$boost=4,site=restoran.cafe
